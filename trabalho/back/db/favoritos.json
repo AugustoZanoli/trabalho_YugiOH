@@ -1,8 +1,26 @@
 [
   {
     "id": 1,
-    "name": "\"A\" Cell Incubator",
+    "name": "7 Colored Fish",
+    "type": "Normal Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/23771716.jpg"
+  },
+  {
+    "id": 2,
+    "name": "7",
     "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/64163367.jpg"
+    "image": "https://images.ygoprodeck.com/images/cards/67048711.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Abyss Actor - Sassy Rookie",
+    "type": "Pendulum Effect Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/51028231.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Virtual World Dragon - Longlong",
+    "type": "XYZ Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/61641818.jpg"
   }
 ]

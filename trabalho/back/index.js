@@ -38,7 +38,7 @@ function favoritar(req, res) {
         const { name, type, image } = req.body;
         
         const addFav = { id: favoritos.length + 1, name, type, image };
-        favoritos.push(addFav);
+        favoritos.push(addFav); // Adiciona nosso objeto no bd
         writeJSONFile(bdPath, favoritos);
 
         res.status(200).send('Favoritado com sucesso');
