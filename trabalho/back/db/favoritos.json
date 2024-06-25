@@ -1,26 +1,44 @@
 [
   {
     "id": 1,
-    "name": "7 Colored Fish",
-    "type": "Normal Monster",
-    "image": "https://images.ygoprodeck.com/images/cards/23771716.jpg"
+    "name": "\"Infernoble Arms - Joyeuse\"",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/90861137.jpg"
   },
   {
     "id": 2,
-    "name": "7",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/67048711.jpg"
+    "name": "3-Hump Lacooda",
+    "type": "Effect Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/86988864.jpg"
   },
   {
     "id": 3,
-    "name": "Abyss Actor - Sassy Rookie",
-    "type": "Pendulum Effect Monster",
-    "image": "https://images.ygoprodeck.com/images/cards/51028231.jpg"
+    "name": "7 Completed",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/86198326.jpg"
   },
   {
     "id": 4,
-    "name": "Virtual World Dragon - Longlong",
-    "type": "XYZ Monster",
-    "image": "https://images.ygoprodeck.com/images/cards/61641818.jpg"
+    "name": "\"A\" Cell Recombination Device",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/91231901.jpg"
+  },
+  {
+    "id": 5,
+    "name": "\"Infernoble Arms - Almace\"",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/98319530.jpg"
+  },
+  {
+    "id": 6,
+    "name": "\"A\" Cell Incubator",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/64163367.jpg"
+  },
+  {
+    "id": 7,
+    "name": "A Feint Plan",
+    "type": "Trap Card",
+    "image": "https://images.ygoprodeck.com/images/cards/68170903.jpg"
   }
 ]
