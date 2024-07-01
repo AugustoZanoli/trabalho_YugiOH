@@ -28,7 +28,7 @@ export default function Propriedade({ name, type, image }) {
     return (
         // Criando meu objeto card, levando em conta os parametros da API
         <div className="card">
-            <img src={image} alt={`Imagem de ${name}`} />
+            <img src={image} alt={`Imagem de ${name}`} style={{ width: '300px', height: '300px' }} />
             <h3>{name}</h3>
             <p>{type}</p>
             <button onClick={() => submit({ name, type, image })}>

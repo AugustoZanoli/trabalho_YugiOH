@@ -51,6 +51,13 @@ function favoritar(req, res) {
 // Rota favorite
 app.post('/favoritar', favoritar);
 
+//importar rotas autenticacao
+const authRoutes = require('./router/auth');
+
+//rotas para os dois serviços
+app.use('/auth', authRoutes);
+
+
 app.listen(3000, () => {
     console.log('Servidor ligado!');
 });
