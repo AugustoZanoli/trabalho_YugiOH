@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import PropriedadesFav from './PropriedadesFav';
+import Navbar from './Navbar';
 
 export default function ListaFav() {
     const [favoritos, setFavoritos] = useState([]);
@@ -14,7 +15,9 @@ export default function ListaFav() {
     }, []);
 
     return (
-        <div className="lista-propriedades">
+        <div>
+            <Navbar />
+            <div className="lista-propriedades">
             {
                 favoritos.map(f => (
                     <PropriedadesFav 
@@ -26,5 +29,7 @@ export default function ListaFav() {
                 ))
             }
         </div>
+        </div>
+        
     );
 }

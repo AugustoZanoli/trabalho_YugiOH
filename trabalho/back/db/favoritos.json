@@ -1,44 +1,20 @@
 [
   {
     "id": 1,
-    "name": "\"Infernoble Arms - Joyeuse\"",
+    "name": "1st Movement Solo",
     "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/90861137.jpg"
+    "image": "https://images.ygoprodeck.com/images/cards/44256816.jpg"
   },
   {
     "id": 2,
-    "name": "3-Hump Lacooda",
-    "type": "Effect Monster",
-    "image": "https://images.ygoprodeck.com/images/cards/86988864.jpg"
+    "name": "\"Infernoble Arms - Hauteclere\"",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/64867422.jpg"
   },
   {
     "id": 3,
-    "name": "7 Completed",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/86198326.jpg"
-  },
-  {
-    "id": 4,
-    "name": "\"A\" Cell Recombination Device",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/91231901.jpg"
-  },
-  {
-    "id": 5,
-    "name": "\"Infernoble Arms - Almace\"",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/98319530.jpg"
-  },
-  {
-    "id": 6,
-    "name": "\"A\" Cell Incubator",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/64163367.jpg"
-  },
-  {
-    "id": 7,
-    "name": "A Feint Plan",
-    "type": "Trap Card",
-    "image": "https://images.ygoprodeck.com/images/cards/68170903.jpg"
+    "name": "7 Colored Fish",
+    "type": "Normal Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/23771716.jpg"
   }
 ]
