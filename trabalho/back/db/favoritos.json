@@ -16,5 +16,11 @@
     "name": "7 Colored Fish",
     "type": "Normal Monster",
     "image": "https://images.ygoprodeck.com/images/cards/23771716.jpg"
+  },
+  {
+    "id": 4,
+    "name": "A Rival Appears!",
+    "type": "Trap Card",
+    "image": "https://images.ygoprodeck.com/images/cards/5728014.jpg"
   }
 ]

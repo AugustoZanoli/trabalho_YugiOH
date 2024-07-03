@@ -1,22 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import '../../styles/CreateUser.css';
-import {set, useForm} from 'react-hook-form'; //npm i react-hook-form
+import { set, useForm } from 'react-hook-form'; //npm i react-hook-form
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import axios from 'axios';
-import { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 
-//Objeto para validação de campos com yup
+// Objeto para validação de campos com yup
 const schema = yup.object({
     email: yup.string().email('Email inválido').required('Email obrigatório'),
-    password: yup.string().min(2,'Senha com no mínimo 2 caracteres').required(),
+    password: yup.string().min(2, 'Senha com no mínimo 2 caracteres').required(),
 }).required();
 
+export default function LoginUser() {
 
-export default function LoginUser(){
-
-    //Msg para armazenar resposta literal do servidor
+    // Msg para armazenar resposta literal do servidor
     const [msg, setMsg] = useState(' ');
 
     const form = useForm({
@@ -25,27 +23,41 @@ export default function LoginUser(){
 
     const { register, handleSubmit, formState } = form;
 
-    const {errors} = formState;
+    const { errors } = formState;
 
     const submit = async (data) => {
-        
         try {
             const response = await axios.post('http://localhost:3000/auth/login', data);
             sessionStorage.setItem('token', response.data);
             setMsg('Usuário Autenticado');
         } catch (error) {
             setMsg(error.response.data);
-        }   
-        
+        }
     }
 
-    if(msg.includes('Usuário Autenticado')){
+    if (msg.includes('Usuário Autenticado')) {
         return <Navigate to='/listar-propriedades' />
     }
 
+    useEffect(() => {
+        const text = "Seja bem vindo ao seu Yugi-OH deck manager!";
+        let index = 0;
+
+        const intervalId = setInterval(() => {
+            document.getElementById("paragrafoLogin").textContent += text[index];
+            index++;
+            if (index === text.length) {
+                clearInterval(intervalId);
+            }
+        }, 50);
+
+        // Limpeza do intervalo quando o componente é desmontado
+        return () => clearInterval(intervalId);
+    }, []);
+
     return (
-        <>  
-            <h2>Entre para ver suas cartinhas</h2>
+        <>
+            <p id="paragrafoLogin"></p>
             <form onSubmit={handleSubmit(submit)} noValidate>
 
                 <label htmlFor="email" placeholder="email">Email</label>
@@ -65,5 +77,4 @@ export default function LoginUser(){
             </div>
         </>
     )
-
 }

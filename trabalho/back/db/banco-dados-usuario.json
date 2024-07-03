@@ -10,5 +10,11 @@
     "username": "sofia",
     "email": "sofia@gmail.com",
     "password": "$2b$10$bKPDO0UmVYoW6hH4SaLEl.3J5ozqurzdZRlxKyT1Xmboc/ZtGC6qu"
+  },
+  {
+    "id": 3,
+    "username": "Victalzin",
+    "email": "cavicfina@gmail.com",
+    "password": "$2b$10$EMQpQgEObeKi3PV98hsd3OYo5ac8gkHk8is248M3gLyOI4yWtsB5."
   }
 ]
