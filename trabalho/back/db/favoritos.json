@@ -1,8 +1,50 @@
 [
   {
     "id": 1,
-    "name": "\"A\" Cell Incubator",
+    "name": "1st Movement Solo",
     "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/64163367.jpg"
+    "image": "https://images.ygoprodeck.com/images/cards/44256816.jpg"
+  },
+  {
+    "id": 2,
+    "name": "\"Infernoble Arms - Joyeuse\"",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/90861137.jpg"
+  },
+  {
+    "id": 4,
+    "name": "\"A\" Cell Recombination Device",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/91231901.jpg"
+  },
+  {
+    "id": 5,
+    "name": "\"A\" Cell Scatter Burst",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/73262676.jpg"
+  },
+  {
+    "id": 6,
+    "name": "7",
+    "type": "Spell Card",
+    "image": "https://images.ygoprodeck.com/images/cards/67048711.jpg"
+  },
+  {
+    "id": 7,
+    "name": "4-Starred Ladybug of Doom",
+    "type": "Flip Effect Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/83994646.jpg"
+  },
+  {
+    "id": 8,
+    "name": "30,000-Year White Turtle",
+    "type": "Normal Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/11714098.jpg"
+  },
+  {
+    "id": 9,
+    "name": "A Cat of Ill Omen",
+    "type": "Flip Effect Monster",
+    "image": "https://images.ygoprodeck.com/images/cards/24140059.jpg"
   }
 ]

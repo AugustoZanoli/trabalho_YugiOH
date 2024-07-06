@@ -22,5 +22,11 @@
     "username": "augusto",
     "email": "augustozanoli0804@gmail.com",
     "password": "$2b$10$cxpN/qlamUkFFn/0H47Q1edg/GH0hKkIG4qjDC7LQHqCqQ.kfeBie"
+  },
+  {
+    "id": 5,
+    "username": "Zanolin1",
+    "email": "d2023001020@unifei.edu.br",
+    "password": "$2b$10$.xDB8sqmwAYSJvwKTG3tNuclQjnkuPrgaPbHSpQPF/vJie8k2Nc4G"
   }
 ]

@@ -41,7 +41,7 @@ export default function LoginUser() {
 
     return (
         <>
-            <p>oi</p>
+            <p>Bem vindo ao Yugi-OH deck manager</p>
             <form onSubmit={handleSubmit(submit)} noValidate >
 
                 <label htmlFor="email" placeholder="email">Email</label>
