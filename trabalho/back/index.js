@@ -51,6 +51,20 @@ function favoritar(req, res) {
 // Rota favorite
 app.post('/favoritar', favoritar);
 
+// Rota para remover favoritos
+app.delete('/favoritar/:id', (req, res) => {
+    const { id } = req.params;
+
+    const index = favoritos.findIndex(fav => fav.id === parseInt(id));
+    if (index !== -1) {
+        favoritos.splice(index, 1); // Remove o item do array
+        writeJSONFile(bdPath, favoritos); // Atualiza o arquivo JSON
+        res.status(200).send('Removido com sucesso');
+    } else {
+        res.status(404).send('Favorito não encontrado');
+    }
+});
+
 //importar rotas autenticacao
 const authRoutes = require('./router/auth');
 

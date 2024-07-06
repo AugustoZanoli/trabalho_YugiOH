@@ -16,5 +16,11 @@
     "username": "Victalzin",
     "email": "cavicfina@gmail.com",
     "password": "$2b$10$EMQpQgEObeKi3PV98hsd3OYo5ac8gkHk8is248M3gLyOI4yWtsB5."
+  },
+  {
+    "id": 4,
+    "username": "augusto",
+    "email": "augustozanoli0804@gmail.com",
+    "password": "$2b$10$cxpN/qlamUkFFn/0H47Q1edg/GH0hKkIG4qjDC7LQHqCqQ.kfeBie"
   }
 ]

@@ -39,26 +39,10 @@ export default function LoginUser() {
         return <Navigate to='/listar-propriedades' />
     }
 
-    useEffect(() => {
-        const text = "Seja bem vindo ao seu Yugi-OH deck manager!";
-        let index = 0;
-
-        const intervalId = setInterval(() => {
-            document.getElementById("paragrafoLogin").textContent += text[index];
-            index++;
-            if (index === text.length) {
-                clearInterval(intervalId);
-            }
-        }, 50);
-
-        // Limpeza do intervalo quando o componente é desmontado
-        return () => clearInterval(intervalId);
-    }, []);
-
     return (
         <>
-            <p id="paragrafoLogin"></p>
-            <form onSubmit={handleSubmit(submit)} noValidate>
+            <p>oi</p>
+            <form onSubmit={handleSubmit(submit)} noValidate >
 
                 <label htmlFor="email" placeholder="email">Email</label>
                 <input type="text" id="email" {...register('email')} />

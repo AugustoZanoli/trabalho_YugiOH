@@ -1,26 +1,8 @@
 [
   {
     "id": 1,
-    "name": "1st Movement Solo",
+    "name": "\"A\" Cell Incubator",
     "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/44256816.jpg"
-  },
-  {
-    "id": 2,
-    "name": "\"Infernoble Arms - Hauteclere\"",
-    "type": "Spell Card",
-    "image": "https://images.ygoprodeck.com/images/cards/64867422.jpg"
-  },
-  {
-    "id": 3,
-    "name": "7 Colored Fish",
-    "type": "Normal Monster",
-    "image": "https://images.ygoprodeck.com/images/cards/23771716.jpg"
-  },
-  {
-    "id": 4,
-    "name": "A Rival Appears!",
-    "type": "Trap Card",
-    "image": "https://images.ygoprodeck.com/images/cards/5728014.jpg"
+    "image": "https://images.ygoprodeck.com/images/cards/64163367.jpg"
   }
 ]
