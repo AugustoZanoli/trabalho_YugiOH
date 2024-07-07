@@ -20,6 +20,9 @@ export default function ListaPropriedades() {
         // Mapeando os dados de cada carta da minha API
         <div>
             <Navbar />
+            <div>
+                <img id='logoYugi'src="../src/assets/logo-main.png" alt="yugioh logo" />
+            </div>
             <div className="lista-propriedades">
                 {
                     propriedades.map(p => (

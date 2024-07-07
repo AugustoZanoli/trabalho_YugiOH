@@ -85,6 +85,10 @@ button:focus-visible {
   background-color: #1b38208a;
 }
 
+#logoYugi{
+  margin-top: 15px;
+}
+
 .card {
   width: 300px;
   border: none;
