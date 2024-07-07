@@ -66,6 +66,34 @@ app.delete('/favoritar/:id', (req, res) => {
     }
 });
 
+function atualizarCarta(req, res) {
+    try {
+        const { id } = req.params;
+        const { name, type, image, avaliacao } = req.body;
+
+        const index = favoritos.findIndex(fav => fav.id === parseInt(id));
+        if (index !== -1) {
+            // Atualiza os campos do card, mantendo os valores atuais se não forem fornecidos novos valores
+            favoritos[index] = { 
+                id: parseInt(id), 
+                name: name || favoritos[index].name, 
+                type: type || favoritos[index].type, 
+                image: image || favoritos[index].image, 
+                avaliacao: avaliacao || favoritos[index].avaliacao 
+            };
+            writeJSONFile(bdPath, favoritos); // Atualiza o arquivo JSON
+            res.status(200).send('Carta atualizada com sucesso');
+        } else {
+            res.status(404).send('Carta não encontrada');
+        }
+    } catch (error) {
+        console.error('Erro ao atualizar a carta:', error);
+        res.status(500).send('Erro ao processar a requisição');
+    }
+}
+
+app.put('/favoritar/:id', atualizarCarta);
+
 //importar rotas autenticacao
 const authRoutes = require('./router/auth');
 

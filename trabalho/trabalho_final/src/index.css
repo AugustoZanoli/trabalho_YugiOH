@@ -35,6 +35,12 @@ h1 {
   line-height: 1.1;
 }
 
+select{
+  border-radius: 0.5em;
+  margin:5px;
+  color: #555;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -56,7 +62,7 @@ button:focus-visible {
 
 #btnRemover:hover{
     background-color: rgba(151, 10, 10, 0.778);
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0.319);
 }
 
 #btnAvaliar{
@@ -65,8 +71,44 @@ button:focus-visible {
 }
 
 #btnAvaliar:hover{
-  background-color: #eaffad8d;
+  background-color: #eaffad06;
   border-style: none;
+}
+
+#btnEnviarAval{
+  border-style: none;
+}
+
+#btnEnviarAval:hover{
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.319);
+  background-color: #1b38208a;
+}
+
+.card {
+  width: 300px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
 }
 
 @media (prefers-color-scheme: light) {

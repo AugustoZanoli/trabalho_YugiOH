@@ -35,6 +35,28 @@ export default function ListaFav() {
         }
     };
 
+    const avaliarCarta = async (id, name, type, image, avaliacao) => {
+        try {
+            const response = await axios.put(`http://localhost:3000/favoritar/${id}`, {
+                name,
+                type,
+                image,
+                avaliacao
+            });
+            if (response && response.data) {
+                setMsg(response.data);
+                if (response.data.includes('sucesso')) {
+                    // Atualiza a avaliação da carta no estado local
+                    setFavoritos(favoritos.map(fav => fav.id === id ? { ...fav, avaliacao: avaliacao || fav.avaliacao } : fav));
+                }
+            } else {
+                setMsg('Erro: A resposta do servidor não contém dados.');
+            }
+        } catch (error) {
+            setMsg(error.message);
+        }
+    };
+
     return (
         <div>
             <Navbar />
@@ -46,8 +68,10 @@ export default function ListaFav() {
                         id={f.id}
                         name={f.name} 
                         type={f.type} 
-                        image={f.image} 
+                        image={f.image}
+                        avaliacao={f.avaliacao} // Passa a avaliação como propriedade
                         onRemove={removeFavorite}
+                        attAvaliacao={avaliarCarta}
                     />
                 ))}
             </div>
