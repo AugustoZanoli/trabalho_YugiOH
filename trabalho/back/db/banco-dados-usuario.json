@@ -28,5 +28,17 @@
     "username": "Zanolin1",
     "email": "d2023001020@unifei.edu.br",
     "password": "$2b$10$.xDB8sqmwAYSJvwKTG3tNuclQjnkuPrgaPbHSpQPF/vJie8k2Nc4G"
+  },
+  {
+    "id": 6,
+    "username": "augusto",
+    "email": "zancamar9@gmail.com",
+    "password": "$2b$10$ih69BB/3zUR7KAAKSgFRX.WW25Q5.63qna/XO4OfeWuQY70dZH.aC"
+  },
+  {
+    "id": 7,
+    "username": "asdasda",
+    "email": "comercial@laiaacessorios.com.br",
+    "password": "$2b$10$x3lYKu8Q4Ky1BrZ.9j3y8udJbBhVxfD8wokGrAlkD2nrxGl/leTZe"
   }
 ]
