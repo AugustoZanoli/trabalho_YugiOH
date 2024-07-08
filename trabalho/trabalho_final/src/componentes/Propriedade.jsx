@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import '../index.css'
 
 export default function Propriedade({ name, type, image }) {
     const [msg, setMsg] = useState('');

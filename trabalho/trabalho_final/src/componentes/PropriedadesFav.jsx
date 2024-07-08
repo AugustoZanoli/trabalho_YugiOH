@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../index.css'
 
 export default function PropriedadesFav({ id, name, type, image, avaliacao, onRemove, attAvaliacao }) {
     const [newAvaliacao, setNewAvaliacao] = useState(null);

@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import PropriedadesFav from './PropriedadesFav';
 import Navbar from './Navbar';
+import '../index.css'
 
 export default function ListaFav() {
     const [favoritos, setFavoritos] = useState([]);

@@ -41,6 +41,7 @@ export default function LoginUser() {
 
     return (
         <>
+            <img id='logoYugi'src="../src/assets/logo-main.png" alt="yugioh logo" />
             <p>Bem vindo ao Yugi-OH deck manager</p>
             <form onSubmit={handleSubmit(submit)} noValidate >
 
@@ -57,7 +58,7 @@ export default function LoginUser() {
             <p className="server-response">{msg}</p>
             <div className="realizar-cadastro">
                 Não possui conta? 
-                <Link to="/criar-user">Cadastro</Link>
+                <Link to="/criar-user">Faça o seu cadastro</Link>
             </div>
         </>
     )

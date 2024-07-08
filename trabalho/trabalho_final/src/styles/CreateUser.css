@@ -1,3 +1,11 @@
+body {
+    background-image: url('../src/assets/backgroundcard.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+}
+
+
 label {
     font-weight: bold;
     display: flex;
@@ -22,9 +30,9 @@ input{
 }
 
 .realizar-cadastro{
+    margin-left: 80px;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #ccc;
     font-size: 1rem;
     width: 60%;
 }
@@ -45,7 +53,7 @@ input{
     font-size: 2rem;
 }
 img{
-    width: 15%;
+    width: 100%;
 }
 
 .LoginUser {
@@ -54,3 +62,11 @@ img{
     align-items: center;
     justify-content: center;
   }
+
+  form{
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px 15px;
+    background-color: rgb(13, 12, 12);
+  }
+
