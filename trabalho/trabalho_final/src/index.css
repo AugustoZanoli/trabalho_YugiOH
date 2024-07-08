@@ -53,7 +53,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgba(255, 255, 255, 0.319);
 }
 button:focus,
 button:focus-visible {
@@ -113,6 +113,20 @@ button:focus-visible {
 .card p {
   font-size: 1em;
   color: #555;
+}
+
+.filtro-container{
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.filtro-container input{
+  border-radius: 1em;
+}
+
+.filtro-container img{
+  height: 20%;
+  width: auto;
 }
 
 @media (prefers-color-scheme: light) {
