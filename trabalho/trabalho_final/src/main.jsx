@@ -27,7 +27,7 @@ const routes = createBrowserRouter([
     },
     {
 
-        path: '/listar-propriedades',
+        path: '/cartas',
         element: <ListaPropriedades/>
     },
     {

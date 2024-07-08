@@ -1,10 +1,6 @@
-body {
-    background-image: url('../src/assets/backgroundcard.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    height: 100vh;
+body{
+    background: linear-gradient(to bottom, #a00800e3 0.01%, #252525 0.02%)
 }
-
 
 label {
     font-weight: bold;
@@ -68,5 +64,9 @@ img{
     border-radius: 10px;
     padding: 15px 15px;
     background-color: rgb(13, 12, 12);
+  }
+
+  #logoYugiLogin{
+    width: 60%;
   }
 

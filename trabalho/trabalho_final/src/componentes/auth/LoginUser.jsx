@@ -36,13 +36,13 @@ export default function LoginUser() {
     }
 
     if (msg.includes('Usuário Autenticado')) {
-        return <Navigate to='/listar-propriedades' />
+        return <Navigate to='/cartas' />
     }
 
     return (
-        <>
-            <img id='logoYugi'src="../src/assets/logo-main.png" alt="yugioh logo" />
-            <p>Bem vindo ao Yugi-OH deck manager</p>
+        <root id='rootLogin'>
+            <img id='logoYugiLogin'src="../src/assets/logo-main.png" alt="yugioh logo" />
+            <p>Bem vindo ao Yugi-OH card manager</p>
             <form onSubmit={handleSubmit(submit)} noValidate >
 
                 <label htmlFor="email" placeholder="email">Email</label>
@@ -60,6 +60,6 @@ export default function LoginUser() {
                 Não possui conta? 
                 <Link to="/criar-user">Faça o seu cadastro</Link>
             </div>
-        </>
+        </root>
     )
 }

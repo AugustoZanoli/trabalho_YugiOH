@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import Propriedade from './Propriedade';
 import Navbar from './Navbar';
-import '../index.css'
+
 
 export default function ListaPropriedades() {
     const [propriedades, setPropriedades] = useState([]);
