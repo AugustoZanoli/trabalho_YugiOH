@@ -20,3 +20,19 @@ Gerenciar uma coleção de cartas de Yu-Gi-Oh! pode ser uma tarefa complexa e de
 - Remover Cartas Favoritas: Remova cartas da sua lista de favoritas quando desejar.
 - Avaliar Cartas: Avalie as cartas para compartilhar sua opinião com outros usuários.
 - Buscar Cartas: Procure cartas específicas pelo nome, facilitando a localização de cartas desejadas.
+
+## Imagens
+- Login
+<img src="/imagens/Login.png" alt="Login" />
+
+- Cadastro
+<img src="/imagens/Cadastro.png" alt="Cadastro" />
+
+- Home
+<img src="/imagens/Home.png" alt="Home" />
+
+- Busca
+<img src="/imagens/Search.png" alt="Busca" />
+
+- Favoritas
+<img src="/imagens/Favs.png" alt="Favoritos" />
